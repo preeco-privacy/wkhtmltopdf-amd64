@@ -1,5 +1,5 @@
 {
-    "name": "h4cc/wkhtmltopdf-amd64",
+    "name": "preeco-privacy/wkhtmltopdf-amd64",
     "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
     "keywords": ["pdf", "thumbnail", "snapshot", "wkhtmltopdf", "convert", "binary"],
     "license": "LGPL Version 3",
@@ -12,13 +12,13 @@
     ],
     "minimum-stability": "stable",
     "bin": [
-        "bin/wkhtmltopdf-amd64"
+        "bin/wkhtmltopdf"
     ],
     "require": {
     },
     "autoload": {
         "psr-4": {
-            "h4cc\\WKHTMLToPDF\\": ""
+            "preeco_privacy\\WKHTMLToPDF\\": ""
         }
     }
 }
